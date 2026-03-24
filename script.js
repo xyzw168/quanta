@@ -1,5 +1,6 @@
 let currentQuiz = [];
 let currentIndex = 0;
+let score = 0; // Tambah variabel skor
 
 const questionEl = document.getElementById('question');
 const optionsEl = document.getElementById('options');
@@ -51,9 +52,10 @@ function showQuestion() {
 
 function checkAnswer(selected, correct, keyword) {
     const allButtons = document.querySelectorAll('.btn-opt');
-    allButtons.forEach(btn => btn.disabled = true); // Kunci tombol
+    allButtons.forEach(btn => btn.disabled = true);
 
     if (selected === correct) {
+        score++; // Tambah skor jika benar
         feedbackEl.innerHTML = `<div style="color:var(--success)">✨ Jawabanmu benar!</div>`;
     } else {
         feedbackEl.innerHTML = `<div style="color:var(--error)">💡 Kurang tepat. Jawaban benar: ${correct}</div>`;
@@ -74,20 +76,32 @@ function nextQuestion() {
     showQuestion();
 }
 
+// Fungsi Finish yang sudah diperbarui dengan skor
 function finishQuiz() {
     const quizBox = document.querySelector('.quiz-box');
+    const totalSoal = currentQuiz.length;
+    const nilaiFinal = Math.round((score / totalSoal) * 100);
+
     quizBox.innerHTML = `
         <div style="text-align:center">
-            <h2>Latihan Selesai</h2>
-            <p>Kamu sudah menyelesaikan semua soal di kategori ini.</p>
-            <br>
-            <a href="index.html" class="btn-main" style="text-decoration:none">Pilih Materi Lain</a>
+            <div style="font-size: 4rem; margin-bottom: 10px;">🏆</div>
+            <h2 style="margin-bottom: 5px;">Latihan Selesai!</h2>
+            <p style="opacity: 0.8; margin-bottom: 20px;">Kamu hebat sudah mencoba!</p>
+            
+            <div style="background: var(--bg); padding: 20px; border-radius: 20px; margin-bottom: 25px;">
+                <p style="margin: 0; font-size: 0.9rem; font-weight: 600;">SKOR KAMU</p>
+                <h1 style="font-size: 3.5rem; margin: 5px 0; color: var(--primary);">${nilaiFinal}</h1>
+                <p style="margin: 0; font-size: 0.8rem;">${score} benar dari ${totalSoal} soal</p>
+            </div>
+
+            <a href="index.html" class="btn-main" style="text-decoration:none; display: block;">Pilih Materi Lain</a>
         </div>
     `;
 }
 
 function loadPart(partName) {
     currentIndex = 0;
+    score = 0; // Reset skor saat ganti part
     fetch(materiaFile)
         .then(res => res.json())
         .then(data => {
