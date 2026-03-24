@@ -14,7 +14,14 @@ if (materiaFile) {
     fetch(materiaFile)
         .then(res => res.json())
         .then(data => {
-            if (data.part1) {
+            const savedPart = sessionStorage.getItem(materiaFile + '_part');
+
+            if (savedPart && data[savedPart]) {
+                currentQuiz = data[savedPart];
+                currentIndex = parseInt(sessionStorage.getItem(materiaFile + '_index') || '0');
+                score = parseInt(sessionStorage.getItem(materiaFile + '_score') || '0');
+                showQuestion();
+            } else if (data.part1) {
                 document.getElementById('question').innerText = "Pilih Part untuk Memulai";
                 document.getElementById('options').innerHTML = `
                     <button class="btn-opt" onclick="loadPart('part1')">Mulai Part 1</button>
@@ -56,6 +63,7 @@ function checkAnswer(selected, correct, keyword) {
 
     if (selected === correct) {
         score++; // Tambah skor jika benar
+        sessionStorage.setItem(materiaFile + '_score', score);
         feedbackEl.innerHTML = `<div style="color:var(--success)">✨ Jawabanmu benar!</div>`;
     } else {
         feedbackEl.innerHTML = `<div style="color:var(--error)">💡 Kurang tepat. Jawaban benar: ${correct}</div>`;
@@ -73,11 +81,16 @@ function checkAnswer(selected, correct, keyword) {
 
 function nextQuestion() {
     currentIndex++;
+    sessionStorage.setItem(materiaFile + '_index', currentIndex);
     showQuestion();
 }
 
 // Fungsi Finish yang sudah diperbarui dengan skor
 function finishQuiz() {
+    sessionStorage.removeItem(materiaFile + '_part');
+    sessionStorage.removeItem(materiaFile + '_index');
+    sessionStorage.removeItem(materiaFile + '_score');
+
     const quizBox = document.querySelector('.quiz-box');
     const totalSoal = currentQuiz.length;
     const nilaiFinal = Math.round((score / totalSoal) * 100);
@@ -102,6 +115,11 @@ function finishQuiz() {
 function loadPart(partName) {
     currentIndex = 0;
     score = 0; // Reset skor saat ganti part
+
+    sessionStorage.setItem(materiaFile + '_part', partName);
+    sessionStorage.setItem(materiaFile + '_index', currentIndex);
+    sessionStorage.setItem(materiaFile + '_score', score);
+
     fetch(materiaFile)
         .then(res => res.json())
         .then(data => {
