@@ -1,6 +1,6 @@
 let currentQuiz = [];
 let currentIndex = 0;
-let score = 0; // Tambah variabel skor
+let score = 0;
 
 const questionEl = document.getElementById('question');
 const optionsEl = document.getElementById('options');
@@ -14,16 +14,11 @@ if (materiaFile) {
     fetch(materiaFile)
         .then(res => res.json())
         .then(data => {
-            if (data.part1) {
-                document.getElementById('question').innerText = "Pilih Part untuk Memulai";
-                document.getElementById('options').innerHTML = `
-                    <button class="btn-opt" onclick="loadPart('part1')">Mulai Part 1</button>
-                    <button class="btn-opt" onclick="loadPart('part2')">Mulai Part 2</button>
-                `;
-            } else {
-                currentQuiz = data;
-                showQuestion();
-            }
+            document.getElementById('question').innerText = "Pilih Part di atas untuk Memulai";
+            document.getElementById('options').innerHTML = "";
+
+            document.getElementById('feedback').innerHTML = "";
+            document.getElementById('next-btn').style.display = 'none';
         });
 }
 
