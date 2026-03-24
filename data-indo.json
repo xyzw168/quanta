@@ -1,0 +1,62 @@
+[
+  {
+    "soal": "Penulisan yang baku menurut KBBI adalah...",
+    "opsi": ["Apotik", "Apotek"],
+    "jawaban": "Apotek",
+    "kata_kunci": "apotek"
+  },
+  {
+    "soal": "Manakah kata yang benar untuk laporan ilmiah?",
+    "opsi": ["Analisa", "Analisis"],
+    "jawaban": "Analisis",
+    "kata_kunci": "analisis"
+  },
+  {
+    "soal": "Setiap tindakan pasti memiliki ____.",
+    "opsi": ["Resiko", "Risiko"],
+    "jawaban": "Risiko",
+    "kata_kunci": "risiko"
+  },
+  {
+    "soal": "Tenaga medis sedang melakukan ____ lapangan.",
+    "opsi": ["Praktek", "Praktik"],
+    "jawaban": "Praktik",
+    "kata_kunci": "praktik"
+  },
+  {
+    "soal": "Barang ini memiliki ____ yang sangat tinggi.",
+    "opsi": ["Kwalitas", "Kualitas"],
+    "jawaban": "Kualitas",
+    "kata_kunci": "kualitas"
+  },
+  {
+    "soal": "Mohon cek kembali ____ keberangkatan kereta.",
+    "opsi": ["Jadual", "Jadwal"],
+    "jawaban": "Jadwal",
+    "kata_kunci": "jadwal"
+  },
+  {
+    "soal": "Sifatnya sangat ____ dalam bekerja.",
+    "opsi": ["Hierarki", "Hirarki"],
+    "jawaban": "Hierarki",
+    "kata_kunci": "hierarki"
+  },
+  {
+    "soal": "Ia sangat ____ dalam organisasi tersebut.",
+    "opsi": ["Aktif", "Aktiv"],
+    "jawaban": "Aktif",
+    "kata_kunci": "aktif"
+  },
+  {
+    "soal": "Bagaimana ____ kerja mesin ini?",
+    "opsi": ["Sistim", "Sistem"],
+    "jawaban": "Sistem",
+    "kata_kunci": "sistem"
+  },
+  {
+    "soal": "Dia sedang menyusun ____ hidup.",
+    "opsi": ["Karir", "Karier"],
+    "jawaban": "Karier",
+    "kata_kunci": "karier"
+  }
+]
