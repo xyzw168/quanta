@@ -1,84 +1,127 @@
-/* style.css - Fix Layout & Centered */
+/* style.css - Cute & Pinky Edition 🌸 */
 :root {
-    --primary: #6366f1; /* Warna Indigo yang lembut */
-    --bg: #f3f4f6;      /* Abu-abu terang untuk latar */
+    --primary: #ff85a1;      /* Pink cerah yang lucu */
+    --primary-hover: #ffb3c1; /* Pink yang lebih muda untuk hover */
+    --bg: #fff5f7;           /* Latar belakang pink sangat muda */
     --white: #ffffff;
-    --text: #1f2937;    /* Warna teks gelap yang nyaman */
-    --success: #10b981;
-    --error: #ef4444;
+    --text: #4a4a4a;         /* Abu-abu gelap agar tetap terbaca */
+    --success: #70e000;      /* Hijau segar untuk jawaban benar */
+    --error: #ff4d6d;        /* Merah muda tua untuk jawaban salah */
+    --accent: #fbc4ab;       /* Warna peach untuk aksen tambahan */
 }
 
 body {
-    font-family: 'Inter', sans-serif; /* Font estetik & nyaman dibaca */
+    font-family: 'Quicksand', 'Inter', sans-serif; /* Gunakan font yang lebih bulat jika ada */
     background-color: var(--bg);
     color: var(--text);
     margin: 0;
     padding: 0;
-    /* Ini kunci posisi di tengah */
     display: flex;
-    align-items: center; /* Vertikal center */
-    justify-content: center; /* Horisontal center */
-    min-height: 100vh; /* Pastikan tinggi body minimal seukuran layar */
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh;
 }
 
-/* Container utama agar bubble pas di tengah */
 .container {
     width: 90%;
-    max-width: 500px; /* Ukuran bubble kuis yang pas */
-    margin: auto; /* Membantu centering */
+    max-width: 500px;
+    margin: auto;
 }
 
-/* Box kuis (Bubble) */
+/* Box kuis (Bubble) dengan sudut lebih membulat */
 .quiz-box {
     background: var(--white);
-    padding: 30px;
-    border-radius: 24px; /* Sudut melengkung yang estetik */
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    border-radius: 35px; /* Lebih bulat agar terlihat "bouncy" */
+    box-shadow: 0 15px 30px rgba(255, 133, 161, 0.15); /* Shadow berwarna pink tipis */
     text-align: center;
+    border: 3px solid #ffe5ec; /* Garis tepi tipis yang lucu */
 }
 
-/* Container pilihan jawaban agar vertikal */
+/* Judul header */
+h1, h2 {
+    color: #ff5c8a;
+}
+
+/* Kartu Menu di index.html */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--text);
+    display: block;
+    margin-bottom: 15px;
+    border: 2px solid #ffe5ec;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efek melompat kecil */
+    border-color: var(--primary);
+}
+
+/* Container pilihan jawaban */
 .options-container {
     display: flex;
-    flex-direction: column; /* Tombol berbaris ke bawah */
-    gap: 12px;
+    flex-direction: column;
+    gap: 15px;
     margin: 25px 0;
 }
 
 /* Styling Tombol Pilihan Jawaban */
 .btn-opt {
-    background: #f9fafb;
-    border: 2px solid #e5e7eb;
+    background: #fffafa;
+    border: 2px solid #ffe5ec;
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 1rem;
-    font-weight: 500;
-    text-align: center;
-    transition: all 0.2s;
+    font-weight: 600;
+    color: var(--text);
+    transition: all 0.3s ease;
 }
 
 .btn-opt:hover {
     border-color: var(--primary);
-    background: #eef2ff;
+    background: #ffe5ec;
+    transform: scale(1.02); /* Efek membesar sedikit */
 }
 
 /* Feedback Area */
 .feedback-area {
     margin-top: 20px;
     min-height: 50px;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 /* Tombol Utama (Berikutnya) */
 .btn-main {
-    width: 100%; /* Lebar penuh */
+    width: 100%;
     background: var(--primary);
     color: white;
     border: none;
-    padding: 16px;
-    border-radius: 16px;
-    font-weight: 600;
+    padding: 18px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1rem;
     cursor: pointer;
-    margin-top: 20px;
+    box-shadow: 0 5px 0px #ff5c8a; /* Efek tombol 3D */
+    transition: all 0.1s;
+}
+
+.btn-main:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0px #ff5c8a;
+}
+
+/* Badge versi */
+.badge {
+    background: var(--accent);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    vertical-align: middle;
 }
