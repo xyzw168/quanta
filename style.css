@@ -1,40 +1,51 @@
+/* style.css - Fix Layout & Centered */
 :root {
-    --primary: #6366f1;
-    --bg: #f3f4f6;
+    --primary: #6366f1; /* Warna Indigo yang lembut */
+    --bg: #f3f4f6;      /* Abu-abu terang untuk latar */
     --white: #ffffff;
-    --text: #1f2937;
+    --text: #1f2937;    /* Warna teks gelap yang nyaman */
     --success: #10b981;
     --error: #ef4444;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; /* Font estetik & nyaman dibaca */
     background-color: var(--bg);
     color: var(--text);
     margin: 0;
+    padding: 0;
+    /* Ini kunci posisi di tengah */
     display: flex;
     align-items: center; /* Vertikal center */
     justify-content: center; /* Horisontal center */
-    min-height: 100vh;
+    min-height: 100vh; /* Pastikan tinggi body minimal seukuran layar */
 }
 
+/* Container utama agar bubble pas di tengah */
 .container {
     width: 90%;
-    max-width: 500px; /* Ukuran bubble lebih pas */
+    max-width: 500px; /* Ukuran bubble kuis yang pas */
+    margin: auto; /* Membantu centering */
+}
+
+/* Box kuis (Bubble) */
+.quiz-box {
     background: var(--white);
     padding: 30px;
-    border-radius: 24px;
+    border-radius: 24px; /* Sudut melengkung yang estetik */
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
+/* Container pilihan jawaban agar vertikal */
 .options-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Tombol berbaris ke bawah */
     gap: 12px;
     margin: 25px 0;
 }
 
+/* Styling Tombol Pilihan Jawaban */
 .btn-opt {
     background: #f9fafb;
     border: 2px solid #e5e7eb;
@@ -42,8 +53,9 @@ body {
     border-radius: 16px;
     cursor: pointer;
     font-size: 1rem;
-    transition: all 0.2s;
+    font-weight: 500;
     text-align: center;
+    transition: all 0.2s;
 }
 
 .btn-opt:hover {
@@ -51,8 +63,16 @@ body {
     background: #eef2ff;
 }
 
+/* Feedback Area */
+.feedback-area {
+    margin-top: 20px;
+    min-height: 50px;
+    font-weight: 600;
+}
+
+/* Tombol Utama (Berikutnya) */
 .btn-main {
-    width: 100%;
+    width: 100%; /* Lebar penuh */
     background: var(--primary);
     color: white;
     border: none;
@@ -60,4 +80,5 @@ body {
     border-radius: 16px;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 20px;
 }
