@@ -1,9 +1,75 @@
 {
   "part1": [
-    {"soal": "Penulisan yang baku...", "opsi": ["Apotik", "Apotek"], "jawaban": "Apotek", "kata_kunci": "apotek"},
-    {"soal": "Kata yang benar...", "opsi": ["Analisa", "Analisis"], "jawaban": "Analisis", "kata_kunci": "analisis"}
+    {"soal": "Penulisan yang baku adalah...", "opsi": ["Apotik", "Apotek"], "jawaban": "Apotek", "kata_kunci": "apotek"},
+    {"soal": "Manakah kata yang sesuai dengan KBBI?", "opsi": ["Analisa", "Analisis"], "jawaban": "Analisis", "kata_kunci": "analisis"},
+    {"soal": "Bentuk baku dari kata berikut adalah...", "opsi": ["Kualitas", "Kwalitas"], "jawaban": "Kualitas", "kata_kunci": "kualitas"},
+    {"soal": "Penulisan objek yang benar adalah...", "opsi": ["Obyek", "Objek"], "jawaban": "Objek", "kata_kunci": "objek"},
+    {"soal": "Manakah yang merupakan kata baku?", "opsi": ["Risiko", "Resiko"], "jawaban": "Risiko", "kata_kunci": "risiko"},
+    {"soal": "Penulisan yang tepat adalah...", "opsi": ["Jadwal", "Jadual"], "jawaban": "Jadwal", "kata_kunci": "jadwal"},
+    {"soal": "Mana yang benar?", "opsi": ["Sekedar", "Sekadar"], "jawaban": "Sekadar", "kata_kunci": "sekadar"},
+    {"soal": "Kata yang sesuai PUEBI adalah...", "opsi": ["Standardisasi", "Standarisasi"], "jawaban": "Standardisasi", "kata_kunci": "standardisasi"},
+    {"soal": "Bentuk baku dari praktek adalah...", "opsi": ["Praktek", "Praktik"], "jawaban": "Praktik", "kata_kunci": "praktik"},
+    {"soal": "Manakah penulisan yang benar?", "opsi": ["Izin", "Ijin"], "jawaban": "Izin", "kata_kunci": "izin"}
   ],
   "part2": [
-    {"soal": "Izin atau Ijin?", "opsi": ["Ijin", "Izin"], "jawaban": "Izin", "kata_kunci": "izin"}
+    {"soal": "Kata yang baku adalah...", "opsi": ["Saraf", "Syaraf"], "jawaban": "Saraf", "kata_kunci": "saraf"},
+    {"soal": "Penulisan yang benar adalah...", "opsi": ["Silakan", "Silahkan"], "jawaban": "Silakan", "kata_kunci": "silakan"},
+    {"soal": "Manakah yang baku?", "opsi": ["Antre", "Antri"], "jawaban": "Antre", "kata_kunci": "antre"},
+    {"soal": "Bentuk kata yang benar adalah...", "opsi": ["Hafal", "Hapal"], "jawaban": "Hafal", "kata_kunci": "hafal"},
+    {"soal": "Penulisan yang tepat adalah...", "opsi": ["Khawatir", "Kuwatir"], "jawaban": "Khawatir", "kata_kunci": "khawatir"},
+    {"soal": "Mana kata yang baku?", "opsi": ["Zaman", "Jaman"], "jawaban": "Zaman", "kata_kunci": "zaman"},
+    {"soal": "Penulisan subjek yang benar adalah...", "opsi": ["Subjek", "Subyek"], "jawaban": "Subjek", "kata_kunci": "subjek"},
+    {"soal": "Manakah yang sesuai KBBI?", "opsi": ["Hierarki", "Hirarki"], "jawaban": "Hierarki", "kata_kunci": "hierarki"},
+    {"soal": "Kata yang benar adalah...", "opsi": ["Karier", "Karir"], "jawaban": "Karier", "kata_kunci": "karier"},
+    {"soal": "Bentuk baku dari ijazah adalah...", "opsi": ["Ijazah", "Ijasah"], "jawaban": "Ijazah", "kata_kunci": "ijazah"}
   ]
 }
+
+"part3": [
+    {"soal": "Penulisan yang benar adalah...", "opsi": ["Kuitansi", "Kwitansi"], "jawaban": "Kuitansi", "kata_kunci": "kuitansi"},
+    {"soal": "Manakah kata yang baku?", "opsi": ["Aktivitas", "Aktifitas"], "jawaban": "Aktivitas", "kata_kunci": "aktivitas"},
+    {"soal": "Bentuk baku dari kata ini adalah...", "opsi": ["Efektif", "Epektip"], "jawaban": "Efektif", "kata_kunci": "efektif"},
+    {"soal": "Penulisan yang sesuai KBBI...", "opsi": ["Sistem", "Sistim"], "jawaban": "Sistem", "kata_kunci": "sistem"},
+    {"soal": "Mana yang merupakan kata baku?", "opsi": ["Teknik", "Tehnik"], "jawaban": "Teknik", "kata_kunci": "teknik"},
+    {"soal": "Penulisan yang tepat adalah...", "opsi": ["Zaman", "Jaman"], "jawaban": "Zaman", "kata_kunci": "zaman"},
+    {"soal": "Manakah yang baku?", "opsi": ["Cabai", "Cabe"], "jawaban": "Cabai", "kata_kunci": "cabai"},
+    {"soal": "Bentuk kata yang benar adalah...", "opsi": ["Lubang", "Lobang"], "jawaban": "Lubang", "kata_kunci": "lubang"},
+    {"soal": "Penulisan yang sesuai PUEBI...", "opsi": ["Miliar", "Milyar"], "jawaban": "Miliar", "kata_kunci": "miliar"},
+    {"soal": "Manakah penulisan yang benar?", "opsi": ["Nasihat", "Nasehat"], "jawaban": "Nasihat", "kata_kunci": "nasihat"}
+  ],
+  "part4": [
+    {"soal": "Kata yang baku adalah...", "opsi": ["Objektif", "Obyektif"], "jawaban": "Objektif", "kata_kunci": "objektif"},
+    {"soal": "Penulisan yang benar adalah...", "opsi": ["Komplet", "Komplit"], "jawaban": "Komplet", "kata_kunci": "komplet"},
+    {"soal": "Manakah yang baku?", "opsi": ["Gubuk", "Gubug"], "jawaban": "Gubuk", "kata_kunci": "gubuk"},
+    {"soal": "Bentuk kata yang benar adalah...", "opsi": ["Manajemen", "Managemen"], "jawaban": "Manajemen", "kata_kunci": "manajemen"},
+    {"soal": "Penulisan yang tepat adalah...", "opsi": ["Merespons", "Merespon"], "jawaban": "Merespons", "kata_kunci": "merespons"},
+    {"soal": "Mana kata yang baku?", "opsi": ["Saksama", "Seksama"], "jawaban": "Saksama", "kata_kunci": "saksama"},
+    {"soal": "Penulisan yang benar adalah...", "opsi": ["Istri", "Isteri"], "jawaban": "Istri", "kata_kunci": "istri"},
+    {"soal": "Manakah yang sesuai KBBI?", "opsi": ["Khidmat", "Hidmat"], "jawaban": "Khidmat", "kata_kunci": "khidmat"},
+    {"soal": "Kata yang benar adalah...", "opsi": ["Kreativitas", "Kreatifitas"], "jawaban": "Kreativitas", "kata_kunci": "kreativitas"},
+    {"soal": "Bentuk baku dari jadwal adalah...", "opsi": ["Jadwal", "Jadual"], "jawaban": "Jadwal", "kata_kunci": "jadwal"}
+  ]
+"part5": [
+    {"soal": "Manakah kalimat yang efektif?", "opsi": ["Banyak siswa-siswa yang bolos.", "Banyak siswa yang bolos."], "jawaban": "Banyak siswa yang bolos.", "kata_kunci": "kalimat efektif"},
+    {"soal": "Penulisan kata berimbuhan yang benar adalah...", "opsi": ["Mempengaruhi", "Memengaruhi"], "jawaban": "Memengaruhi", "kata_kunci": "imbuhan"},
+    {"soal": "Sinonim dari kata 'Inovasi' adalah...", "opsi": ["Penemuan baru", "Kebiasaan lama"], "jawaban": "Penemuan baru", "kata_kunci": "sinonim"},
+    {"soal": "Kata yang menunjukkan urutan waktu adalah...", "opsi": ["Kemudian", "Sangat"], "jawaban": "Kemudian", "kata_kunci": "konjungsi"},
+    {"soal": "Manakah yang merupakan antonim dari 'Maya'?", "opsi": ["Nyata", "Semu"], "jawaban": "Nyata", "kata_kunci": "antonim"},
+    {"soal": "Penulisan imbuhan 'me- + kaji' (belajar) yang benar adalah...", "opsi": ["Mengkaji", "Mengaji"], "jawaban": "Mengkaji", "kata_kunci": "imbuhan"},
+    {"soal": "Mana penulisan kata depan yang benar?", "opsi": ["Di sekolah", "Disekolah"], "jawaban": "Di sekolah", "kata_kunci": "kata depan"},
+    {"soal": "Apa arti dari kata 'Eksplanasi'?", "opsi": ["Penjelasan", "Permintaan"], "jawaban": "Penjelasan", "kata_kunci": "makna kata"},
+    {"soal": "Manakah penulisan singkatan yang benar?", "opsi": ["s.d. (sampai dengan)", "s/d (sampai dengan)"], "jawaban": "s.d. (sampai dengan)", "kata_kunci": "singkatan"},
+    {"soal": "Bentuk baku dari 'analisa' adalah...", "opsi": ["Analisis", "Analisa"], "jawaban": "Analisis", "kata_kunci": "analisis"}
+  ],
+  "part6": [
+    {"soal": "Manakah penulisan judul yang benar?", "opsi": ["Laskar Pelangi", "laskar pelangi"], "jawaban": "Laskar Pelangi", "kata_kunci": "kapital"},
+    {"soal": "Sinonim dari kata 'Efisien' adalah...", "opsi": ["Hemat", "Boros"], "jawaban": "Hemat", "kata_kunci": "sinonim"},
+    {"soal": "Antonim dari kata 'Statis' adalah...", "opsi": ["Dinamis", "Diam"], "jawaban": "Dinamis", "kata_kunci": "antonim"},
+    {"soal": "Penulisan partikel yang benar adalah...", "opsi": ["Apapun", "Apa pun"], "jawaban": "Apa pun", "kata_kunci": "partikel"},
+    {"soal": "Manakah yang merupakan kalimat pasif?", "opsi": ["Buku dibaca Budi.", "Budi membaca buku."], "jawaban": "Buku dibaca Budi.", "kata_kunci": "kalimat pasif"},
+    {"soal": "Arti kata 'Otentik' adalah...", "opsi": ["Asli", "Tiruan"], "jawaban": "Asli", "kata_kunci": "makna kata"},
+    {"soal": "Penulisan gabungan kata yang benar adalah...", "opsi": ["Tanggung jawab", "Tanggungjawab"], "jawaban": "Tanggung jawab", "kata_kunci": "gabungan kata"},
+    {"soal": "Mana yang merupakan kata serapan yang benar?", "opsi": ["Kualitas", "Kwalitas"], "jawaban": "Kualitas", "kata_kunci": "serapan"},
+    {"soal": "Penulisan angka yang benar di awal kalimat adalah...", "opsi": ["Lima siswa datang.", "5 siswa datang."], "jawaban": "Lima siswa datang.", "kata_kunci": "angka"},
+    {"soal": "Manakah konjungsi yang menyatakan sebab?", "opsi": ["Karena", "Tetapi"], "jawaban": "Karena", "kata_kunci": "konjungsi"}
+  ]
