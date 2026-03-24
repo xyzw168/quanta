@@ -1,0 +1,52 @@
+[
+  {
+    "soal": "What is the synonym of 'Alleviate'?",
+    "opsi": ["Aggravate", "Relieve"],
+    "jawaban": "Relieve"
+  },
+  {
+    "soal": "Which word means 'something that cannot be avoided'?",
+    "opsi": ["Inevitable", "Doubtful"],
+    "jawaban": "Inevitable"
+  },
+  {
+    "soal": "The word 'Significant' most nearly means...",
+    "opsi": ["Trivial", "Important"],
+    "jawaban": "Important"
+  },
+  {
+    "soal": "'Nevertheless' is used to show...",
+    "opsi": ["Addition", "Contrast"],
+    "jawaban": "Contrast"
+  },
+  {
+    "soal": "Choose the synonym for 'Enhance':",
+    "opsi": ["Improve", "Worsen"],
+    "jawaban": "Improve"
+  },
+  {
+    "soal": "What does 'Prevalent' mean?",
+    "opsi": ["Rare", "Common"],
+    "jawaban": "Common"
+  },
+  {
+    "soal": "To 'Convey' a message means to...",
+    "opsi": ["Communicate", "Hide"],
+    "jawaban": "Communicate"
+  },
+  {
+    "soal": "A 'Substantial' amount is...",
+    "opsi": ["A little", "A lot"],
+    "jawaban": "A lot"
+  },
+  {
+    "soal": "The word 'Meticulous' describes someone who is...",
+    "opsi": ["Careful", "Careless"],
+    "jawaban": "Careful"
+  },
+  {
+    "soal": "What is the synonym of 'Advocate'?",
+    "opsi": ["Support", "Oppose"],
+    "jawaban": "Support"
+  }
+]
