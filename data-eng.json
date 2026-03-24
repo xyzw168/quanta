@@ -1,51 +1,74 @@
 {
   "part1": [
     {"soal": "Synonym of 'Alleviate'?", "opsi": ["Aggravate", "Relieve"], "jawaban": "Relieve"},
-    {"soal": "Synonym of 'Abundant'?", "opsi": ["Plentiful", "Scarce"], "jawaban": "Plentiful"},
-    {"soal": "Synonym of 'Reluctant'?", "opsi": ["Willing", "Unwilling"], "jawaban": "Unwilling"},
+    {"soal": "Antonym of 'Abundant'?", "opsi": ["Scarce", "Plentiful"], "jawaban": "Scarce"},
+    {"soal": "Translate: 'I need to improve my skills.'", "opsi": ["Saya perlu meningkatkan keterampilan.", "Saya harus meninggalkan hobi saya."], "jawaban": "Saya perlu meningkatkan keterampilan."},
+    {"soal": "Antonym of 'Reluctant'?", "opsi": ["Willing", "Unwilling"], "jawaban": "Willing"},
     {"soal": "Synonym of 'Significant'?", "opsi": ["Trivial", "Important"], "jawaban": "Important"},
-    {"soal": "Synonym of 'Conceal'?", "opsi": ["Hide", "Reveal"], "jawaban": "Hide"},
+    {"soal": "Indonesian word for 'Environment'?", "opsi": ["Lingkungan", "Perkembangan"], "jawaban": "Lingkungan"},
     {"soal": "Synonym of 'Brief'?", "opsi": ["Concise", "Lengthy"], "jawaban": "Concise"},
-    {"soal": "Synonym of 'Obtain'?", "opsi": ["Get", "Lose"], "jawaban": "Get"},
-    {"soal": "Synonym of 'Fragile'?", "opsi": ["Delicate", "Strong"], "jawaban": "Delicate"},
-    {"soal": "Synonym of 'Vivid'?", "opsi": ["Blurry", "Clear"], "jawaban": "Clear"},
+    {"soal": "Antonym of 'Fragile'?", "opsi": ["Strong", "Delicate"], "jawaban": "Strong"},
+    {"soal": "Translate: 'Technology develops very fast.'", "opsi": ["Teknologi berkembang sangat cepat.", "Teknologi tertinggal jauh."], "jawaban": "Teknologi berkembang sangat cepat."},
     {"soal": "Synonym of 'Enormous'?", "opsi": ["Tiny", "Huge"], "jawaban": "Huge"}
   ],
   "part2": [
-    {"soal": "Synonym of 'Sufficient'?", "opsi": ["Inadequate", "Enough"], "jawaban": "Enough"},
+    {"soal": "Antonym of 'Sufficient'?", "opsi": ["Enough", "Inadequate"], "jawaban": "Inadequate"},
     {"soal": "Synonym of 'Prosperous'?", "opsi": ["Wealthy", "Poor"], "jawaban": "Wealthy"},
-    {"soal": "Synonym of 'Incredible'?", "opsi": ["Unbelievable", "Ordinary"], "jawaban": "Unbelievable"},
-    {"soal": "Synonym of 'Genuine'?", "opsi": ["Fake", "Authentic"], "jawaban": "Authentic"},
+    {"soal": "Translate: 'Education is the key to the future.'", "opsi": ["Pendidikan kunci masa depan.", "Pendidikan beban masa depan."], "jawaban": "Pendidikan kunci masa depan."},
+    {"soal": "Antonym of 'Genuine'?", "opsi": ["Fake", "Authentic"], "jawaban": "Fake"},
     {"soal": "Synonym of 'Hostile'?", "opsi": ["Friendly", "Unfriendly"], "jawaban": "Unfriendly"},
-    {"soal": "Synonym of 'Optimistic'?", "opsi": ["Positive", "Negative"], "jawaban": "Positive"},
-    {"soal": "Synonym of 'Precise'?", "opsi": ["Accurate", "Vague"], "jawaban": "Accurate"},
+    {"soal": "Indonesian word for 'Opportunity'?", "opsi": ["Kepastian", "Kesempatan"], "jawaban": "Kesempatan"},
+    {"soal": "Antonym of 'Optimistic'?", "opsi": ["Positive", "Pessimistic"], "jawaban": "Pessimistic"},
     {"soal": "Synonym of 'Vast'?", "opsi": ["Small", "Immense"], "jawaban": "Immense"},
-    {"soal": "Synonym of 'Reliable'?", "opsi": ["Dependable", "Doubtful"], "jawaban": "Dependable"},
-    {"soal": "Synonym of 'Ancient'?", "opsi": ["Modern", "Old"], "jawaban": "Old"}
-  ]
-}
-
-"part3": [
-    {"soal": "Synonym of 'Abundant'?", "opsi": ["Plentiful", "Scarce"], "jawaban": "Plentiful"},
+    {"soal": "Translate: 'Health is very important.'", "opsi": ["Kesehatan sangat penting.", "Kesehatan sangat mahal."], "jawaban": "Kesehatan sangat penting."},
+    {"soal": "Antonym of 'Ancient'?", "opsi": ["Modern", "Old"], "jawaban": "Modern"}
+  ],
+  "part3": [
     {"soal": "Synonym of 'Evaluate'?", "opsi": ["Assess", "Ignore"], "jawaban": "Assess"},
-    {"soal": "Synonym of 'Consistent'?", "opsi": ["Steady", "Changing"], "jawaban": "Steady"},
-    {"soal": "Synonym of 'Primary'?", "opsi": ["Main", "Secondary"], "jawaban": "Main"},
+    {"soal": "Antonym of 'Consistent'?", "opsi": ["Steady", "Erratic"], "jawaban": "Erratic"},
+    {"soal": "Translate: 'The government implements a new policy.'", "opsi": ["Pemerintah menerapkan kebijakan baru.", "Pemerintah menolak rencana baru."], "jawaban": "Pemerintah menerapkan kebijakan baru."},
+    {"soal": "Indonesian word for 'Evidence'?", "opsi": ["Bukti", "Rumor"], "jawaban": "Bukti"},
+    {"soal": "Antonym of 'Primary'?", "opsi": ["Main", "Secondary"], "jawaban": "Secondary"},
     {"soal": "Synonym of 'Incorporate'?", "opsi": ["Include", "Exclude"], "jawaban": "Include"},
-    {"soal": "Synonym of 'Sufficient'?", "opsi": ["Enough", "Lacking"], "jawaban": "Enough"},
-    {"soal": "Synonym of 'Rapid'?", "opsi": ["Slow", "Fast"], "jawaban": "Fast"},
-    {"soal": "Synonym of 'Determine'?", "opsi": ["Decide", "Hesitate"], "jawaban": "Decide"},
-    {"soal": "Synonym of 'Evidence'?", "opsi": ["Proof", "Rumor"], "jawaban": "Proof"},
-    {"soal": "Synonym of 'Benefit'?", "opsi": ["Advantage", "Harm"], "jawaban": "Advantage"}
+    {"soal": "Translate: 'Reading books improves knowledge.'", "opsi": ["Membaca buku menambah ilmu.", "Membaca buku membuang waktu."], "jawaban": "Membaca buku menambah ilmu."},
+    {"soal": "Antonym of 'Rapid'?", "opsi": ["Slow", "Fast"], "jawaban": "Slow"},
+    {"soal": "Indonesian word for 'Benefit'?", "opsi": ["Manfaat", "Bahaya"], "jawaban": "Manfaat"},
+    {"soal": "Synonym of 'Determine'?", "opsi": ["Decide", "Hesitate"], "jawaban": "Decide"}
   ],
   "part4": [
-    {"soal": "Synonym of 'Acquire'?", "opsi": ["Obtain", "Give"], "jawaban": "Obtain"},
+    {"soal": "Antonym of 'Acquire'?", "opsi": ["Obtain", "Lose"], "jawaban": "Lose"},
     {"soal": "Synonym of 'Crucial'?", "opsi": ["Essential", "Optional"], "jawaban": "Essential"},
-    {"soal": "Synonym of 'Demonstrate'?", "opsi": ["Show", "Hide"], "jawaban": "Show"},
+    {"soal": "Translate: 'I agree with your opinion.'", "opsi": ["Saya setuju pendapatmu.", "Saya menentang idemu."], "jawaban": "Saya setuju pendapatmu."},
+    {"soal": "Antonym of 'Reject'?", "opsi": ["Accept", "Refuse"], "jawaban": "Accept"},
+    {"soal": "Indonesian word for 'Achievement'?", "opsi": ["Prestasi", "Kegagalan"], "jawaban": "Prestasi"},
     {"soal": "Synonym of 'Generate'?", "opsi": ["Create", "Destroy"], "jawaban": "Create"},
-    {"soal": "Synonym of 'Interpret'?", "opsi": ["Explain", "Confuse"], "jawaban": "Explain"},
-    {"soal": "Synonym of 'Maintain'?", "opsi": ["Keep", "Abondon"], "jawaban": "Keep"},
-    {"soal": "Synonym of 'Precise'?", "opsi": ["Accurate", "Vague"], "jawaban": "Accurate"},
-    {"soal": "Synonym of 'Reject'?", "opsi": ["Refuse", "Accept"], "jawaban": "Refuse"},
-    {"soal": "Synonym of 'Vary'?", "opsi": ["Change", "Stay"], "jawaban": "Change"},
-    {"soal": "Synonym of 'Initial'?", "opsi": ["First", "Last"], "jawaban": "First"}
+    {"soal": "Translate: 'Practice makes perfect.'", "opsi": ["Latihan membuat sempurna.", "Latihan itu melelahkan."], "jawaban": "Latihan membuat sempurna."},
+    {"soal": "Antonym of 'Initial'?", "opsi": ["First", "Final"], "jawaban": "Final"},
+    {"soal": "Indonesian word for 'Decision'?", "opsi": ["Pertanyaan", "Keputusan"], "jawaban": "Keputusan"},
+    {"soal": "Synonym of 'Interpret'?", "opsi": ["Explain", "Confuse"], "jawaban": "Explain"}
+  ],
+  "part5": [
+    {"soal": "Antonym of 'Success'?", "opsi": ["Victory", "Failure"], "jawaban": "Failure"},
+    {"soal": "Translate: 'The government implements a new policy.'", "opsi": ["Pemerintah menerapkan kebijakan baru.", "Pemerintah menolak rencana baru."], "jawaban": "Pemerintah menerapkan kebijakan baru."},
+    {"soal": "Indonesian word for 'Environment'?", "opsi": ["Lingkungan", "Perkembangan"], "jawaban": "Lingkungan"},
+    {"soal": "Antonym of 'Generous'?", "opsi": ["Kind", "Stingy"], "jawaban": "Stingy"},
+    {"soal": "Translate: 'Reading books can improve your knowledge.'", "opsi": ["Membaca buku menambah pengetahuan.", "Membaca buku melelahkan pikiran."], "jawaban": "Membaca buku menambah pengetahuan."},
+    {"soal": "Antonym of 'Ancient'?", "opsi": ["Old", "Modern"], "jawaban": "Modern"},
+    {"soal": "Indonesian word for 'Opportunity'?", "opsi": ["Kepastian", "Kesempatan"], "jawaban": "Kesempatan"},
+    {"soal": "Translate: 'Technology develops very fast.'", "opsi": ["Teknologi berkembang sangat cepat.", "Teknologi tertinggal sangat jauh."], "jawaban": "Teknologi berkembang sangat cepat."},
+    {"soal": "Antonym of 'Permanent'?", "opsi": ["Constant", "Temporary"], "jawaban": "Temporary"},
+    {"soal": "Indonesian word for 'Challenge'?", "opsi": ["Tantangan", "Bantuan"], "jawaban": "Tantangan"}
+  ],
+  "part6": [
+    {"soal": "Translate: 'I agree with your opinion.'", "opsi": ["Saya setuju dengan pendapatmu.", "Saya menentang pendapatmu."], "jawaban": "Saya setuju dengan pendapatmu."},
+    {"soal": "Antonym of 'Difficult'?", "opsi": ["Hard", "Easy"], "jawaban": "Easy"},
+    {"soal": "Indonesian word for 'Achievement'?", "opsi": ["Kegagalan", "Prestasi"], "jawaban": "Prestasi"},
+    {"soal": "Translate: 'Practice makes perfect.'", "opsi": ["Latihan membuat sempurna.", "Latihan itu membosankan."], "jawaban": "Latihan membuat sempurna."},
+    {"soal": "Antonym of 'Optimistic'?", "opsi": ["Pessimistic", "Cheerful"], "jawaban": "Pessimistic"},
+    {"soal": "Translate: 'Health is very important.'", "opsi": ["Kesehatan sangat penting.", "Kesehatan sangat mahal."], "jawaban": "Kesehatan sangat penting."},
+    {"soal": "Indonesian word for 'Decision'?", "opsi": ["Keputusan", "Pertanyaan"], "jawaban": "Keputusan"},
+    {"soal": "Antonym of 'Visible'?", "opsi": ["Clear", "Invisible"], "jawaban": "Invisible"},
+    {"soal": "Translate: 'The students are studying in the library.'", "opsi": ["Siswa sedang belajar di perpustakaan.", "Siswa sedang bermain di perpustakaan."], "jawaban": "Siswa sedang belajar di perpustakaan."},
+    {"soal": "Indonesian word for 'Research'?", "opsi": ["Penelitian", "Pencarian"], "jawaban": "Penelitian"}
   ]
+}
