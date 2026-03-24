@@ -1,17 +1,16 @@
-/* style.css - Cute & Pinky Edition 🌸 */
 :root {
-    --primary: #ff85a1;      /* Pink cerah yang lucu */
-    --primary-hover: #ffb3c1; /* Pink yang lebih muda untuk hover */
-    --bg: #fff5f7;           /* Latar belakang pink sangat muda */
+    --primary: #ff85a1;   
+    --primary-hover: #ffb3c1;
+    --bg: #fff5f7;       
     --white: #ffffff;
-    --text: #4a4a4a;         /* Abu-abu gelap agar tetap terbaca */
-    --success: #70e000;      /* Hijau segar untuk jawaban benar */
-    --error: #ff4d6d;        /* Merah muda tua untuk jawaban salah */
-    --accent: #fbc4ab;       /* Warna peach untuk aksen tambahan */
+    --text: #4a4a4a;      
+    --success: #70e000;    
+    --error: #ff4d6d;      
+    --accent: #fbc4ab;   
 }
 
 body {
-    font-family: 'Quicksand', 'Inter', sans-serif; /* Gunakan font yang lebih bulat jika ada */
+    font-family: 'Quicksand', 'Inter', sans-serif;
     background-color: var(--bg);
     color: var(--text);
     margin: 0;
@@ -28,22 +27,19 @@ body {
     margin: auto;
 }
 
-/* Box kuis (Bubble) dengan sudut lebih membulat */
 .quiz-box {
     background: var(--white);
     padding: 35px;
-    border-radius: 35px; /* Lebih bulat agar terlihat "bouncy" */
-    box-shadow: 0 15px 30px rgba(255, 133, 161, 0.15); /* Shadow berwarna pink tipis */
+    border-radius: 35px; 
+    box-shadow: 0 15px 30px rgba(255, 133, 161, 0.15); 
     text-align: center;
-    border: 3px solid #ffe5ec; /* Garis tepi tipis yang lucu */
+    border: 3px solid #ffe5ec; 
 }
 
-/* Judul header */
 h1, h2 {
     color: #ff5c8a;
 }
 
-/* Kartu Menu di index.html */
 .card {
     background: white;
     padding: 20px;
@@ -57,11 +53,10 @@ h1, h2 {
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Efek melompat kecil */
+    transform: translateY(-5px);
     border-color: var(--primary);
 }
 
-/* Container pilihan jawaban */
 .options-container {
     display: flex;
     flex-direction: column;
@@ -69,7 +64,6 @@ h1, h2 {
     margin: 25px 0;
 }
 
-/* Styling Tombol Pilihan Jawaban */
 .btn-opt {
     background: #fffafa;
     border: 2px solid #ffe5ec;
@@ -85,10 +79,9 @@ h1, h2 {
 .btn-opt:hover {
     border-color: var(--primary);
     background: #ffe5ec;
-    transform: scale(1.02); /* Efek membesar sedikit */
+    transform: scale(1.02);
 }
 
-/* Feedback Area */
 .feedback-area {
     margin-top: 20px;
     min-height: 50px;
@@ -96,7 +89,6 @@ h1, h2 {
     font-size: 1.1rem;
 }
 
-/* Tombol Utama (Berikutnya) */
 .btn-main {
     width: 100%;
     background: var(--primary);
@@ -107,7 +99,7 @@ h1, h2 {
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
-    box-shadow: 0 5px 0px #ff5c8a; /* Efek tombol 3D */
+    box-shadow: 0 5px 0px #ff5c8a;
     transition: all 0.1s;
 }
 
@@ -116,7 +108,6 @@ h1, h2 {
     box-shadow: 0 2px 0px #ff5c8a;
 }
 
-/* Badge versi */
 .badge {
     background: var(--accent);
     color: white;
@@ -124,4 +115,27 @@ h1, h2 {
     border-radius: 20px;
     font-size: 0.7rem;
     vertical-align: middle;
+}
+
+.btn-card {
+    margin-top: 15px;
+    display: inline-block;
+    background: #ffe5ec; 
+    color: #ff5c8a;   
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.card:hover .btn-card {
+    background: var(--primary); 
+    color: white;
+    transform: scale(1.05);
+}
+
+.card {
+    text-decoration: none !important;
 }
