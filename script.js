@@ -13,10 +13,17 @@ if (materiaFile) {
     fetch(materiaFile)
         .then(res => res.json())
         .then(data => {
-            currentQuiz = data;
-            showQuestion();
-        })
-        .catch(err => console.error("Gagal memuat soal:", err));
+            if (data.part1) {
+                document.getElementById('question').innerText = "Pilih Part untuk Memulai";
+                document.getElementById('options').innerHTML = `
+                    <button class="btn-opt" onclick="loadPart('part1')">Mulai Part 1</button>
+                    <button class="btn-opt" onclick="loadPart('part2')">Mulai Part 2</button>
+                `;
+            } else {
+                currentQuiz = data;
+                showQuestion();
+            }
+        });
 }
 
 function showQuestion() {
