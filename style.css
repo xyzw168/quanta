@@ -146,3 +146,23 @@ h1, h2 {
 .card {
     text-decoration: none !important;
 }
+
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background: #ffffff;
+    color: #ff5c8a;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1.5px solid #ffe5ec;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(255, 133, 161, 0.05);
+}
+
+.btn-back:hover {
+    background: #ffe5ec;
+    transform: translateX(-3px);
+}
