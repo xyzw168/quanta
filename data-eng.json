@@ -1,9 +1,51 @@
 {
   "part1": [
-    {
-      "soal": "What is the synonym of 'Alleviate'?",
-      "opsi": ["Aggravate", "Relieve"],
-      "jawaban": "Relieve"
-    },
+    {"soal": "Synonym of 'Alleviate'?", "opsi": ["Aggravate", "Relieve"], "jawaban": "Relieve"},
+    {"soal": "Synonym of 'Abundant'?", "opsi": ["Plentiful", "Scarce"], "jawaban": "Plentiful"},
+    {"soal": "Synonym of 'Reluctant'?", "opsi": ["Willing", "Unwilling"], "jawaban": "Unwilling"},
+    {"soal": "Synonym of 'Significant'?", "opsi": ["Trivial", "Important"], "jawaban": "Important"},
+    {"soal": "Synonym of 'Conceal'?", "opsi": ["Hide", "Reveal"], "jawaban": "Hide"},
+    {"soal": "Synonym of 'Brief'?", "opsi": ["Concise", "Lengthy"], "jawaban": "Concise"},
+    {"soal": "Synonym of 'Obtain'?", "opsi": ["Get", "Lose"], "jawaban": "Get"},
+    {"soal": "Synonym of 'Fragile'?", "opsi": ["Delicate", "Strong"], "jawaban": "Delicate"},
+    {"soal": "Synonym of 'Vivid'?", "opsi": ["Blurry", "Clear"], "jawaban": "Clear"},
+    {"soal": "Synonym of 'Enormous'?", "opsi": ["Tiny", "Huge"], "jawaban": "Huge"}
+  ],
+  "part2": [
+    {"soal": "Synonym of 'Sufficient'?", "opsi": ["Inadequate", "Enough"], "jawaban": "Enough"},
+    {"soal": "Synonym of 'Prosperous'?", "opsi": ["Wealthy", "Poor"], "jawaban": "Wealthy"},
+    {"soal": "Synonym of 'Incredible'?", "opsi": ["Unbelievable", "Ordinary"], "jawaban": "Unbelievable"},
+    {"soal": "Synonym of 'Genuine'?", "opsi": ["Fake", "Authentic"], "jawaban": "Authentic"},
+    {"soal": "Synonym of 'Hostile'?", "opsi": ["Friendly", "Unfriendly"], "jawaban": "Unfriendly"},
+    {"soal": "Synonym of 'Optimistic'?", "opsi": ["Positive", "Negative"], "jawaban": "Positive"},
+    {"soal": "Synonym of 'Precise'?", "opsi": ["Accurate", "Vague"], "jawaban": "Accurate"},
+    {"soal": "Synonym of 'Vast'?", "opsi": ["Small", "Immense"], "jawaban": "Immense"},
+    {"soal": "Synonym of 'Reliable'?", "opsi": ["Dependable", "Doubtful"], "jawaban": "Dependable"},
+    {"soal": "Synonym of 'Ancient'?", "opsi": ["Modern", "Old"], "jawaban": "Old"}
   ]
 }
+
+"part3": [
+    {"soal": "Synonym of 'Abundant'?", "opsi": ["Plentiful", "Scarce"], "jawaban": "Plentiful"},
+    {"soal": "Synonym of 'Evaluate'?", "opsi": ["Assess", "Ignore"], "jawaban": "Assess"},
+    {"soal": "Synonym of 'Consistent'?", "opsi": ["Steady", "Changing"], "jawaban": "Steady"},
+    {"soal": "Synonym of 'Primary'?", "opsi": ["Main", "Secondary"], "jawaban": "Main"},
+    {"soal": "Synonym of 'Incorporate'?", "opsi": ["Include", "Exclude"], "jawaban": "Include"},
+    {"soal": "Synonym of 'Sufficient'?", "opsi": ["Enough", "Lacking"], "jawaban": "Enough"},
+    {"soal": "Synonym of 'Rapid'?", "opsi": ["Slow", "Fast"], "jawaban": "Fast"},
+    {"soal": "Synonym of 'Determine'?", "opsi": ["Decide", "Hesitate"], "jawaban": "Decide"},
+    {"soal": "Synonym of 'Evidence'?", "opsi": ["Proof", "Rumor"], "jawaban": "Proof"},
+    {"soal": "Synonym of 'Benefit'?", "opsi": ["Advantage", "Harm"], "jawaban": "Advantage"}
+  ],
+  "part4": [
+    {"soal": "Synonym of 'Acquire'?", "opsi": ["Obtain", "Give"], "jawaban": "Obtain"},
+    {"soal": "Synonym of 'Crucial'?", "opsi": ["Essential", "Optional"], "jawaban": "Essential"},
+    {"soal": "Synonym of 'Demonstrate'?", "opsi": ["Show", "Hide"], "jawaban": "Show"},
+    {"soal": "Synonym of 'Generate'?", "opsi": ["Create", "Destroy"], "jawaban": "Create"},
+    {"soal": "Synonym of 'Interpret'?", "opsi": ["Explain", "Confuse"], "jawaban": "Explain"},
+    {"soal": "Synonym of 'Maintain'?", "opsi": ["Keep", "Abondon"], "jawaban": "Keep"},
+    {"soal": "Synonym of 'Precise'?", "opsi": ["Accurate", "Vague"], "jawaban": "Accurate"},
+    {"soal": "Synonym of 'Reject'?", "opsi": ["Refuse", "Accept"], "jawaban": "Refuse"},
+    {"soal": "Synonym of 'Vary'?", "opsi": ["Change", "Stay"], "jawaban": "Change"},
+    {"soal": "Synonym of 'Initial'?", "opsi": ["First", "Last"], "jawaban": "First"}
+  ]
