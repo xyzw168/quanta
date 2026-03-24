@@ -78,3 +78,13 @@ function finishQuiz() {
         </div>
     `;
 }
+
+function loadPart(partName) {
+    currentIndex = 0;
+    fetch(materiaFile)
+        .then(res => res.json())
+        .then(data => {
+            currentQuiz = data[partName]; 
+            showQuestion();
+        });
+}
